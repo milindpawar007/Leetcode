@@ -25,6 +25,15 @@ Space Complexity: O(1)
  */
 
 public class MiddleOfLinkedList {
+    static class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode(int val) {
+            this.val = val;
+            this.next = null;
+        }
+    }
 
     // LeetCode expected solution (second middle)
     public ListNode middleNode(ListNode head) {

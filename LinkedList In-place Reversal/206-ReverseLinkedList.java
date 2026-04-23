@@ -28,6 +28,16 @@ import java.util.Stack;
 
 public class ReverseLinkedList {
 
+    static class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode(int val) {
+            this.val = val;
+            this.next = null;
+        }
+    }
+
     // Approach 1: Stack
     public ListNode reverseListUsingStack(ListNode head) {
         Stack<Integer> stack = new Stack<>();
